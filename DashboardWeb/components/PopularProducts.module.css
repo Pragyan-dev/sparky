@@ -1,0 +1,120 @@
+.container {
+    min-height: 100vh;
+    background: var(--color-background);
+}
+
+.header {
+    background: var(--gradient-primary);
+    color: white;
+    padding: var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.backButton {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.infoBox {
+    background: var(--color-primary-container);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.infoIcon {
+    font-size: 24px;
+}
+
+.infoBox strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--color-primary);
+}
+
+.infoBox p {
+    font-size: 14px;
+    color: var(--color-on-surface);
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.productCard {
+    background: var(--color-surface);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow-1);
+}
+
+.productHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 12px;
+}
+
+.productHeader h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.category {
+    font-size: 12px;
+    color: var(--color-on-surface-variant);
+    margin: 0;
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.progressBar {
+    height: 12px;
+    background: var(--color-outline-variant);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progressFill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.rate {
+    font-size: 14px;
+    color: var(--color-on-surface-variant);
+}

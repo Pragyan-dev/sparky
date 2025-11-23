@@ -1,0 +1,145 @@
+.container {
+    min-height: 100vh;
+    background: var(--color-background);
+}
+
+.header {
+    background: var(--gradient-primary);
+    color: white;
+    padding: var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.backButton {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.stats {
+    background: var(--color-surface);
+    display: flex;
+    padding: 24px;
+    box-shadow: var(--shadow-1);
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+    padding: 0 16px;
+    border-right: 1px solid var(--color-outline-variant);
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.statValue {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.statLabel {
+    font-size: 12px;
+    color: var(--color-on-surface-variant);
+    margin-top: 4px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--color-on-surface-variant);
+}
+
+.employeeCard {
+    background: var(--color-surface);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: var(--shadow-1);
+}
+
+.avatar {
+    font-size: 40px;
+}
+
+.info {
+    flex: 1;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.statusBadge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.assignment {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--color-on-surface-variant);
+    font-style: italic;
+}
+
+.helpBox {
+    background: var(--color-primary-container);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: 32px;
+}
+
+.helpBox span:first-child {
+    font-size: 24px;
+}
+
+.helpBox strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--color-primary);
+}
+
+.helpBox p {
+    font-size: 14px;
+    color: var(--color-on-surface);
+    margin: 0;
+}
