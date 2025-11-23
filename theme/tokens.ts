@@ -3,10 +3,10 @@
 
 export const colors = {
     // Brand colors
-    primary: '#6750A4',
-    primaryContainer: '#EADDFF',
+    primary: '#4F46E5', // Indigo 600
+    primaryContainer: '#E0E7FF', // Indigo 100
     onPrimary: '#FFFFFF',
-    onPrimaryContainer: '#21005D',
+    onPrimaryContainer: '#312E81', // Indigo 900
 
     secondary: '#006874',
     secondaryContainer: '#97F0FF',
@@ -32,10 +32,10 @@ export const colors = {
     onCritical: '#FFFFFF',
 
     // Neutral colors
-    background: '#FFFBFE',
-    onBackground: '#1C1B1F',
-    surface: '#FFFBFE',
-    onSurface: '#1C1B1F',
+    background: '#F9FAFB', // Gray 50
+    onBackground: '#111827', // Gray 900
+    surface: '#FFFFFF',
+    onSurface: '#1F2937', // Gray 800
     surfaceVariant: '#E7E0EC',
     onSurfaceVariant: '#49454F',
 
@@ -57,6 +57,11 @@ export const colors = {
     },
 };
 
+export const gradients = {
+    primary: ['#4F46E5', '#6366F1'] as const, // Indigo 600 to Indigo 500
+    secondary: ['#006874', '#008391'] as const,
+};
+
 export const spacing = {
     xs: 4,
     sm: 8,
@@ -68,9 +73,9 @@ export const spacing = {
 };
 
 export const borderRadius = {
-    sm: 4,
-    md: 8,
-    lg: 12,
+    sm: 6,
+    md: 16,
+    lg: 24,
     xl: 16,
     xxl: 24,
     round: 9999,
@@ -86,17 +91,17 @@ export const elevation = {
     },
     level1: {
         shadowColor: colors.shadow,
-        shadowOffset: { width: 0, height: 1 },
+        shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.05,
-        shadowRadius: 2,
-        elevation: 1,
+        shadowRadius: 12,
+        elevation: 2,
     },
     level2: {
         shadowColor: colors.shadow,
-        shadowOffset: { width: 0, height: 2 },
+        shadowOffset: { width: 0, height: 8 },
         shadowOpacity: 0.08,
-        shadowRadius: 4,
-        elevation: 2,
+        shadowRadius: 24,
+        elevation: 4,
     },
     level3: {
         shadowColor: colors.shadow,

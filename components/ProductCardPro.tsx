@@ -47,10 +47,11 @@ export const ProductCardPro: React.FC<ProductCardProProps> = ({
             </Card.Content>
             <Card.Actions style={styles.actions}>
                 <PrimaryButton
-                    label="Add to List"
+                    label="Add"
                     onPress={onAddToCart ?? (() => { })}
                     mode="contained"
                     style={styles.button}
+                    labelStyle={{ fontSize: 12, marginVertical: 6 }}
                 />
             </Card.Actions>
         </Card>
@@ -59,13 +60,16 @@ export const ProductCardPro: React.FC<ProductCardProProps> = ({
 
 const styles = StyleSheet.create({
     card: {
-        margin: spacing.sm,
+        margin: spacing.xs,
         borderRadius: borderRadius.md,
-        ...elevation.level2,
+        backgroundColor: colors.surface,
+        ...elevation.level1,
+        borderWidth: 1,
+        borderColor: 'rgba(0,0,0,0.05)',
     },
     imageContainer: {
         position: 'relative',
-        height: 180,
+        height: 140,
         borderTopLeftRadius: borderRadius.md,
         borderTopRightRadius: borderRadius.md,
         overflow: 'hidden',
@@ -89,6 +93,9 @@ const styles = StyleSheet.create({
     title: {
         marginTop: spacing.xs,
         color: colors.onSurface,
+        fontSize: 14,
+        fontWeight: '600',
+        height: 40,
     },
     price: {
         marginTop: spacing.xs / 2,
@@ -96,11 +103,12 @@ const styles = StyleSheet.create({
         fontWeight: '600',
     },
     actions: {
-        justifyContent: 'flex-end',
-        paddingHorizontal: spacing.md,
-        paddingBottom: spacing.md,
+        justifyContent: 'center',
+        paddingHorizontal: spacing.sm,
+        paddingBottom: spacing.sm,
     },
     button: {
         borderRadius: borderRadius.round,
+        width: '100%',
     },
 });

@@ -2,7 +2,8 @@ import React from 'react';
 import { StyleSheet, ViewStyle, TextStyle } from 'react-native';
 import { Button } from 'react-native-paper';
 import * as Haptics from 'expo-haptics';
-import { colors, borderRadius } from '../theme/tokens';
+import { LinearGradient } from 'expo-linear-gradient';
+import { colors, borderRadius, gradients } from '../theme/tokens';
 
 interface PrimaryButtonProps {
     label: string;
@@ -44,7 +45,7 @@ export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
         onPress();
     };
 
-    return (
+    const buttonContent = (
         <Button
             mode={mode}
             onPress={handlePress}
@@ -53,26 +54,48 @@ export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
             disabled={disabled}
             style={[
                 styles.button,
-                mode === 'contained' && styles.contained,
                 mode === 'outlined' && styles.outlined,
+                // Remove background color for contained mode as we handle it with gradient
+                mode === 'contained' && { backgroundColor: 'transparent' },
                 style,
             ]}
             contentStyle={styles.content}
             labelStyle={[styles.label, labelStyle]}
-            buttonColor={mode === 'contained' ? colors.primary : undefined}
+            // Set transparent for contained to show gradient
+            buttonColor={mode === 'contained' ? 'transparent' : undefined}
             textColor={mode === 'contained' ? colors.onPrimary : colors.primary}
         >
             {label}
         </Button>
     );
+
+    if (mode === 'contained' && !disabled) {
+        return (
+            <LinearGradient
+                colors={gradients.primary}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={[styles.gradientContainer, style]}
+            >
+                {buttonContent}
+            </LinearGradient>
+        );
+    }
+
+    return buttonContent;
 };
 
 const styles = StyleSheet.create({
     button: {
         borderRadius: borderRadius.round,
     },
-    contained: {
+    gradientContainer: {
+        borderRadius: borderRadius.round,
         elevation: 2,
+        shadowColor: colors.primary,
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.3,
+        shadowRadius: 8,
     },
     outlined: {
         borderColor: colors.outline,
