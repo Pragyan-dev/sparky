@@ -1,8 +1,8 @@
-# 🌐 Store Manager Dashboard - Next.js Web App
+# Store Manager Dashboard - Next.js Web App
 
 A beautiful, responsive web application for retail store managers to monitor empty shelves, track popular products, and dispatch employees.
 
-## ✨ Features
+## Features
 
 - **Dashboard Overview** - Real-time statistics and quick actions
 - **Empty Shelf Alerts** - Priority-based alert system with employee dispatch
@@ -10,7 +10,7 @@ A beautiful, responsive web application for retail store managers to monitor emp
 - **Employee Management** - Staff availability and task tracking
 - **Demo Mode** - Floating button to trigger notifications during presentations
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -29,7 +29,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎯 Demo Usage
+## Demo Usage
 
 ### Trigger a Demo Notification
 
@@ -46,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Mark Resolved** - After dispatching, mark alerts as complete
 - **Go Back** - Use the "← Back" button to return to dashboard
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 dashboard-web/
@@ -67,7 +67,7 @@ dashboard-web/
 └── next.config.js
 ```
 
-## 🎨 Features Breakdown
+## Features Breakdown
 
 ### Dashboard
 - 4 clickable stat cards
@@ -93,41 +93,17 @@ dashboard-web/
 - Status indicators
 - Help information
 
-## 💡 Technology Stack
+## Technology Stack
 
 - **Next.js 14** - React framework
 - **React 18** - UI library
 - **CSS Modules** - Scoped styling
 - **JavaScript** - Programming language
 
-## 🎬 Perfect for Presentations
-
-- ✅ No mobile device needed
-- ✅ Runs in any browser
-- ✅ Full-screen mode ready
-- ✅ Professional UI
-- ✅ Easy demo triggers
-- ✅ Smooth animations
-
-## 🔧 Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## 📱 Responsive Design
+## Responsive Design
 
 Works perfectly on:
 - Desktop browsers
 - Tablets
 - Mobile phones
 - Large displays
-
-## 🎁 No Backend Required
-
-All data is mocked in `services/dataService.js`. Perfect for demos and presentations!
-
----
-
-**Built with Next.js & React** 💙
