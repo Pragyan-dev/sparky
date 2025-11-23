@@ -1,0 +1,833 @@
+{
+    "recipes": [
+        {
+            "id": "pasta-carbonara",
+            "name": "Pasta Carbonara",
+            "category": "Italian",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "spaghetti",
+                    "amount": "400g",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "eggs",
+                    "amount": "4",
+                    "tokens": [
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "parmesan cheese",
+                    "amount": "100g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "bacon",
+                    "amount": "200g",
+                    "tokens": [
+                        "pork",
+                        "meat"
+                    ]
+                },
+                {
+                    "name": "black pepper",
+                    "amount": "1 tsp",
+                    "tokens": []
+                },
+                {
+                    "name": "salt",
+                    "amount": "to taste",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "spaghetti": "gluten-free pasta",
+                "eggs": "silken tofu",
+                "parmesan cheese": "nutritional yeast",
+                "bacon": "tempeh bacon"
+            }
+        },
+        {
+            "id": "chicken-tikka-masala",
+            "name": "Chicken Tikka Masala",
+            "category": "Indian",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "chicken breast",
+                    "amount": "500g",
+                    "tokens": [
+                        "chicken",
+                        "meat"
+                    ]
+                },
+                {
+                    "name": "yogurt",
+                    "amount": "200ml",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "yogurt"
+                    ]
+                },
+                {
+                    "name": "heavy cream",
+                    "amount": "150ml",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cream"
+                    ]
+                },
+                {
+                    "name": "tomato sauce",
+                    "amount": "400g",
+                    "tokens": []
+                },
+                {
+                    "name": "garam masala",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "garlic",
+                    "amount": "4 cloves",
+                    "tokens": []
+                },
+                {
+                    "name": "ginger",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "chicken breast": "paneer or tofu",
+                "yogurt": "coconut yogurt",
+                "heavy cream": "coconut cream"
+            }
+        },
+        {
+            "id": "pad-thai",
+            "name": "Pad Thai",
+            "category": "Thai",
+            "servings": 2,
+            "ingredients": [
+                {
+                    "name": "rice noodles",
+                    "amount": "200g",
+                    "tokens": []
+                },
+                {
+                    "name": "shrimp",
+                    "amount": "200g",
+                    "tokens": [
+                        "shrimp",
+                        "shellfish"
+                    ]
+                },
+                {
+                    "name": "eggs",
+                    "amount": "2",
+                    "tokens": [
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "peanuts",
+                    "amount": "50g",
+                    "tokens": [
+                        "peanut"
+                    ]
+                },
+                {
+                    "name": "fish sauce",
+                    "amount": "3 tbsp",
+                    "tokens": [
+                        "fish"
+                    ]
+                },
+                {
+                    "name": "tamarind paste",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "bean sprouts",
+                    "amount": "100g",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "shrimp": "tofu",
+                "eggs": "scrambled tofu",
+                "peanuts": "cashews",
+                "fish sauce": "soy sauce"
+            }
+        },
+        {
+            "id": "caesar-salad",
+            "name": "Caesar Salad",
+            "category": "Salad",
+            "servings": 2,
+            "ingredients": [
+                {
+                    "name": "romaine lettuce",
+                    "amount": "1 head",
+                    "tokens": []
+                },
+                {
+                    "name": "parmesan cheese",
+                    "amount": "50g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "croutons",
+                    "amount": "1 cup",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "caesar dressing",
+                    "amount": "100ml",
+                    "tokens": [
+                        "egg",
+                        "anchovy",
+                        "fish"
+                    ]
+                },
+                {
+                    "name": "lemon juice",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "parmesan cheese": "vegan parmesan",
+                "croutons": "gluten-free croutons",
+                "caesar dressing": "vegan caesar dressing"
+            }
+        },
+        {
+            "id": "beef-tacos",
+            "name": "Beef Tacos",
+            "category": "Mexican",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "ground beef",
+                    "amount": "500g",
+                    "tokens": [
+                        "beef",
+                        "meat"
+                    ]
+                },
+                {
+                    "name": "taco shells",
+                    "amount": "8",
+                    "tokens": [
+                        "corn"
+                    ]
+                },
+                {
+                    "name": "cheddar cheese",
+                    "amount": "100g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "sour cream",
+                    "amount": "100ml",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cream"
+                    ]
+                },
+                {
+                    "name": "lettuce",
+                    "amount": "1 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "tomato",
+                    "amount": "2",
+                    "tokens": []
+                },
+                {
+                    "name": "taco seasoning",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "ground beef": "black beans or lentils",
+                "cheddar cheese": "vegan cheese",
+                "sour cream": "cashew cream"
+            }
+        },
+        {
+            "id": "sushi-rolls",
+            "name": "California Sushi Rolls",
+            "category": "Japanese",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "sushi rice",
+                    "amount": "2 cups",
+                    "tokens": []
+                },
+                {
+                    "name": "nori sheets",
+                    "amount": "4",
+                    "tokens": []
+                },
+                {
+                    "name": "crab meat",
+                    "amount": "200g",
+                    "tokens": [
+                        "crab",
+                        "shellfish"
+                    ]
+                },
+                {
+                    "name": "avocado",
+                    "amount": "2",
+                    "tokens": []
+                },
+                {
+                    "name": "cucumber",
+                    "amount": "1",
+                    "tokens": []
+                },
+                {
+                    "name": "soy sauce",
+                    "amount": "for serving",
+                    "tokens": [
+                        "soy",
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "wasabi",
+                    "amount": "to taste",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "crab meat": "imitation crab or tofu",
+                "soy sauce": "tamari or coconut aminos"
+            }
+        },
+        {
+            "id": "greek-salad",
+            "name": "Greek Salad",
+            "category": "Mediterranean",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "cucumber",
+                    "amount": "2",
+                    "tokens": []
+                },
+                {
+                    "name": "tomatoes",
+                    "amount": "4",
+                    "tokens": []
+                },
+                {
+                    "name": "red onion",
+                    "amount": "1",
+                    "tokens": []
+                },
+                {
+                    "name": "feta cheese",
+                    "amount": "200g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "olives",
+                    "amount": "100g",
+                    "tokens": []
+                },
+                {
+                    "name": "olive oil",
+                    "amount": "4 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "lemon juice",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "feta cheese": "vegan feta or tofu feta"
+            }
+        },
+        {
+            "id": "pancakes",
+            "name": "Fluffy Pancakes",
+            "category": "Breakfast",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "all-purpose flour",
+                    "amount": "2 cups",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "milk",
+                    "amount": "1.5 cups",
+                    "tokens": [
+                        "milk",
+                        "dairy"
+                    ]
+                },
+                {
+                    "name": "eggs",
+                    "amount": "2",
+                    "tokens": [
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "butter",
+                    "amount": "4 tbsp",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "butter"
+                    ]
+                },
+                {
+                    "name": "sugar",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "baking powder",
+                    "amount": "2 tsp",
+                    "tokens": []
+                },
+                {
+                    "name": "vanilla extract",
+                    "amount": "1 tsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "all-purpose flour": "gluten-free flour blend",
+                "milk": "almond milk or oat milk",
+                "eggs": "flax eggs",
+                "butter": "coconut oil or vegan butter"
+            }
+        },
+        {
+            "id": "chocolate-chip-cookies",
+            "name": "Chocolate Chip Cookies",
+            "category": "Dessert",
+            "servings": 24,
+            "ingredients": [
+                {
+                    "name": "all-purpose flour",
+                    "amount": "2.5 cups",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "butter",
+                    "amount": "1 cup",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "butter"
+                    ]
+                },
+                {
+                    "name": "eggs",
+                    "amount": "2",
+                    "tokens": [
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "chocolate chips",
+                    "amount": "2 cups",
+                    "tokens": [
+                        "milk",
+                        "dairy"
+                    ]
+                },
+                {
+                    "name": "sugar",
+                    "amount": "3/4 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "brown sugar",
+                    "amount": "3/4 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "vanilla extract",
+                    "amount": "2 tsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "all-purpose flour": "gluten-free flour",
+                "butter": "vegan butter",
+                "eggs": "applesauce or flax eggs",
+                "chocolate chips": "dairy-free chocolate chips"
+            }
+        },
+        {
+            "id": "tom-yum-soup",
+            "name": "Tom Yum Soup",
+            "category": "Thai",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "shrimp",
+                    "amount": "300g",
+                    "tokens": [
+                        "shrimp",
+                        "shellfish"
+                    ]
+                },
+                {
+                    "name": "mushrooms",
+                    "amount": "200g",
+                    "tokens": []
+                },
+                {
+                    "name": "lemongrass",
+                    "amount": "3 stalks",
+                    "tokens": []
+                },
+                {
+                    "name": "galangal",
+                    "amount": "4 slices",
+                    "tokens": []
+                },
+                {
+                    "name": "fish sauce",
+                    "amount": "3 tbsp",
+                    "tokens": [
+                        "fish"
+                    ]
+                },
+                {
+                    "name": "lime juice",
+                    "amount": "4 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "chili paste",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "shrimp": "tofu or mushrooms",
+                "fish sauce": "soy sauce or tamari"
+            }
+        },
+        {
+            "id": "margherita-pizza",
+            "name": "Margherita Pizza",
+            "category": "Italian",
+            "servings": 2,
+            "ingredients": [
+                {
+                    "name": "pizza dough",
+                    "amount": "1 ball",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "mozzarella cheese",
+                    "amount": "200g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "tomato sauce",
+                    "amount": "1/2 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "fresh basil",
+                    "amount": "10 leaves",
+                    "tokens": []
+                },
+                {
+                    "name": "olive oil",
+                    "amount": "2 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "garlic",
+                    "amount": "2 cloves",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "pizza dough": "gluten-free pizza dough",
+                "mozzarella cheese": "vegan mozzarella"
+            }
+        },
+        {
+            "id": "chicken-noodle-soup",
+            "name": "Chicken Noodle Soup",
+            "category": "Comfort Food",
+            "servings": 6,
+            "ingredients": [
+                {
+                    "name": "chicken breast",
+                    "amount": "500g",
+                    "tokens": [
+                        "chicken",
+                        "meat"
+                    ]
+                },
+                {
+                    "name": "egg noodles",
+                    "amount": "200g",
+                    "tokens": [
+                        "wheat",
+                        "gluten",
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "carrots",
+                    "amount": "2",
+                    "tokens": []
+                },
+                {
+                    "name": "celery",
+                    "amount": "3 stalks",
+                    "tokens": []
+                },
+                {
+                    "name": "onion",
+                    "amount": "1",
+                    "tokens": []
+                },
+                {
+                    "name": "chicken broth",
+                    "amount": "6 cups",
+                    "tokens": [
+                        "chicken"
+                    ]
+                },
+                {
+                    "name": "parsley",
+                    "amount": "1/4 cup",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "chicken breast": "tofu or chickpeas",
+                "egg noodles": "rice noodles or gluten-free noodles",
+                "chicken broth": "vegetable broth"
+            }
+        },
+        {
+            "id": "hummus",
+            "name": "Classic Hummus",
+            "category": "Middle Eastern",
+            "servings": 8,
+            "ingredients": [
+                {
+                    "name": "chickpeas",
+                    "amount": "2 cups",
+                    "tokens": []
+                },
+                {
+                    "name": "tahini",
+                    "amount": "1/2 cup",
+                    "tokens": [
+                        "sesame"
+                    ]
+                },
+                {
+                    "name": "lemon juice",
+                    "amount": "1/4 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "garlic",
+                    "amount": "3 cloves",
+                    "tokens": []
+                },
+                {
+                    "name": "olive oil",
+                    "amount": "3 tbsp",
+                    "tokens": []
+                },
+                {
+                    "name": "cumin",
+                    "amount": "1 tsp",
+                    "tokens": []
+                },
+                {
+                    "name": "salt",
+                    "amount": "to taste",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "tahini": "sunflower seed butter"
+            }
+        },
+        {
+            "id": "french-toast",
+            "name": "French Toast",
+            "category": "Breakfast",
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "bread",
+                    "amount": "8 slices",
+                    "tokens": [
+                        "wheat",
+                        "gluten"
+                    ]
+                },
+                {
+                    "name": "eggs",
+                    "amount": "4",
+                    "tokens": [
+                        "egg"
+                    ]
+                },
+                {
+                    "name": "milk",
+                    "amount": "1/2 cup",
+                    "tokens": [
+                        "milk",
+                        "dairy"
+                    ]
+                },
+                {
+                    "name": "cinnamon",
+                    "amount": "1 tsp",
+                    "tokens": []
+                },
+                {
+                    "name": "vanilla extract",
+                    "amount": "1 tsp",
+                    "tokens": []
+                },
+                {
+                    "name": "butter",
+                    "amount": "for cooking",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "butter"
+                    ]
+                },
+                {
+                    "name": "maple syrup",
+                    "amount": "for serving",
+                    "tokens": []
+                }
+            ],
+            "substitutions": {
+                "bread": "gluten-free bread",
+                "eggs": "banana or flax eggs",
+                "milk": "almond milk or oat milk",
+                "butter": "coconut oil"
+            }
+        },
+        {
+            "id": "quinoa-bowl",
+            "name": "Mediterranean Quinoa Bowl",
+            "category": "Healthy",
+            "servings": 2,
+            "ingredients": [
+                {
+                    "name": "quinoa",
+                    "amount": "1 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "chickpeas",
+                    "amount": "1 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "cucumber",
+                    "amount": "1",
+                    "tokens": []
+                },
+                {
+                    "name": "cherry tomatoes",
+                    "amount": "1 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "feta cheese",
+                    "amount": "100g",
+                    "tokens": [
+                        "milk",
+                        "dairy",
+                        "cheese"
+                    ]
+                },
+                {
+                    "name": "olives",
+                    "amount": "1/2 cup",
+                    "tokens": []
+                },
+                {
+                    "name": "lemon tahini dressing",
+                    "amount": "1/4 cup",
+                    "tokens": [
+                        "sesame"
+                    ]
+                }
+            ],
+            "substitutions": {
+                "feta cheese": "vegan feta",
+                "lemon tahini dressing": "olive oil and lemon juice"
+            }
+        }
+    ]
+}

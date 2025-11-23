@@ -1,0 +1,191 @@
+{
+    "nodes": [
+        {
+            "id": "entrance",
+            "x": 50,
+            "y": 400,
+            "label": "Entrance"
+        },
+        {
+            "id": "a1-head",
+            "x": 150,
+            "y": 100,
+            "label": "Aisle 1"
+        },
+        {
+            "id": "a2-head",
+            "x": 150,
+            "y": 200,
+            "label": "Aisle 2"
+        },
+        {
+            "id": "a3-head",
+            "x": 150,
+            "y": 300,
+            "label": "Aisle 3"
+        },
+        {
+            "id": "a4-head",
+            "x": 150,
+            "y": 400,
+            "label": "Aisle 4"
+        },
+        {
+            "id": "a1-end",
+            "x": 450,
+            "y": 100,
+            "label": "Aisle 1 End"
+        },
+        {
+            "id": "a2-end",
+            "x": 450,
+            "y": 200,
+            "label": "Aisle 2 End"
+        },
+        {
+            "id": "a3-end",
+            "x": 450,
+            "y": 300,
+            "label": "Aisle 3 End"
+        },
+        {
+            "id": "a4-end",
+            "x": 450,
+            "y": 400,
+            "label": "Aisle 4 End"
+        },
+        {
+            "id": "checkout",
+            "x": 50,
+            "y": 500,
+            "label": "Checkout"
+        },
+        {
+            "id": "deli",
+            "x": 500,
+            "y": 250,
+            "label": "Deli"
+        },
+        {
+            "id": "bakery",
+            "x": 500,
+            "y": 150,
+            "label": "Bakery"
+        }
+    ],
+    "edges": [
+        {
+            "from": "entrance",
+            "to": "a4-head",
+            "baseCost": 10
+        },
+        {
+            "from": "entrance",
+            "to": "a3-head",
+            "baseCost": 15
+        },
+        {
+            "from": "entrance",
+            "to": "checkout",
+            "baseCost": 8
+        },
+        {
+            "from": "a1-head",
+            "to": "a1-end",
+            "baseCost": 30
+        },
+        {
+            "from": "a2-head",
+            "to": "a2-end",
+            "baseCost": 30
+        },
+        {
+            "from": "a3-head",
+            "to": "a3-end",
+            "baseCost": 30
+        },
+        {
+            "from": "a4-head",
+            "to": "a4-end",
+            "baseCost": 30
+        },
+        {
+            "from": "a1-head",
+            "to": "a2-head",
+            "baseCost": 12
+        },
+        {
+            "from": "a2-head",
+            "to": "a3-head",
+            "baseCost": 12
+        },
+        {
+            "from": "a3-head",
+            "to": "a4-head",
+            "baseCost": 12
+        },
+        {
+            "from": "a1-end",
+            "to": "a2-end",
+            "baseCost": 12
+        },
+        {
+            "from": "a2-end",
+            "to": "a3-end",
+            "baseCost": 12
+        },
+        {
+            "from": "a3-end",
+            "to": "a4-end",
+            "baseCost": 12
+        },
+        {
+            "from": "a1-end",
+            "to": "bakery",
+            "baseCost": 8
+        },
+        {
+            "from": "a2-end",
+            "to": "deli",
+            "baseCost": 8
+        },
+        {
+            "from": "a3-end",
+            "to": "deli",
+            "baseCost": 8
+        },
+        {
+            "from": "bakery",
+            "to": "deli",
+            "baseCost": 10
+        },
+        {
+            "from": "a4-end",
+            "to": "checkout",
+            "baseCost": 20
+        },
+        {
+            "from": "deli",
+            "to": "checkout",
+            "baseCost": 25
+        }
+    ],
+    "aisleMapping": {
+        "A1": "a1-head",
+        "A2": "a2-head",
+        "A3": "a3-head",
+        "A4": "a4-head",
+        "A5": "a1-end",
+        "A6": "a2-end",
+        "A7": "a3-end",
+        "A8": "a4-end",
+        "A9": "a1-head",
+        "A10": "a2-head",
+        "A11": "a3-head",
+        "A12": "a4-head",
+        "A13": "a1-end",
+        "A14": "a2-end",
+        "A15": "a3-end",
+        "A16": "a4-end"
+    }
+}

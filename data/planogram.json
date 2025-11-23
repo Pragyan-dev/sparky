@@ -1,0 +1,279 @@
+{
+    "planogram": {
+        "A1": {
+            "name": "Dairy & Alternatives",
+            "bays": {
+                "B1": [
+                    "prod-001"
+                ],
+                "B2": [
+                    "prod-002"
+                ],
+                "B3": [
+                    "prod-003"
+                ],
+                "B4": [
+                    "prod-010"
+                ],
+                "B5": [
+                    "prod-011"
+                ],
+                "B6": [
+                    "prod-012"
+                ],
+                "B7": [
+                    "prod-013"
+                ],
+                "B8": [
+                    "prod-024"
+                ],
+                "B9": [
+                    "prod-025"
+                ],
+                "B10": [
+                    "prod-031"
+                ],
+                "B11": [
+                    "prod-032"
+                ],
+                "B12": [
+                    "prod-033"
+                ],
+                "B13": [
+                    "prod-034"
+                ],
+                "B14": [
+                    "prod-064"
+                ],
+                "B15": [
+                    "prod-065"
+                ]
+            }
+        },
+        "A2": {
+            "name": "Bakery",
+            "bays": {
+                "B1": [
+                    "prod-004"
+                ],
+                "B2": [
+                    "prod-005"
+                ]
+            }
+        },
+        "A3": {
+            "name": "Spreads",
+            "bays": {
+                "B1": [
+                    "prod-006"
+                ],
+                "B2": [
+                    "prod-007"
+                ]
+            }
+        },
+        "A4": {
+            "name": "Pasta & Noodles",
+            "bays": {
+                "B1": [
+                    "prod-008"
+                ],
+                "B2": [
+                    "prod-009"
+                ],
+                "B3": [
+                    "prod-040"
+                ],
+                "B4": [
+                    "prod-041"
+                ],
+                "B5": [
+                    "prod-056"
+                ],
+                "B6": [
+                    "prod-057"
+                ]
+            }
+        },
+        "A5": {
+            "name": "Seafood",
+            "bays": {
+                "B1": [
+                    "prod-014"
+                ],
+                "B2": [
+                    "prod-015"
+                ]
+            }
+        },
+        "A6": {
+            "name": "Meat & Poultry",
+            "bays": {
+                "B1": [
+                    "prod-016"
+                ],
+                "B2": [
+                    "prod-017"
+                ],
+                "B3": [
+                    "prod-035"
+                ],
+                "B4": [
+                    "prod-036"
+                ]
+            }
+        },
+        "A7": {
+            "name": "Protein Alternatives",
+            "bays": {
+                "B1": [
+                    "prod-018"
+                ],
+                "B2": [
+                    "prod-019"
+                ]
+            }
+        },
+        "A8": {
+            "name": "Condiments",
+            "bays": {
+                "B1": [
+                    "prod-020"
+                ],
+                "B2": [
+                    "prod-021"
+                ],
+                "B3": [
+                    "prod-022"
+                ],
+                "B4": [
+                    "prod-023"
+                ]
+            }
+        },
+        "A9": {
+            "name": "Snacks",
+            "bays": {
+                "B1": [
+                    "prod-026"
+                ],
+                "B2": [
+                    "prod-027"
+                ],
+                "B3": [
+                    "prod-028"
+                ],
+                "B4": [
+                    "prod-029"
+                ],
+                "B5": [
+                    "prod-030"
+                ],
+                "B6": [
+                    "prod-058"
+                ],
+                "B7": [
+                    "prod-059"
+                ]
+            }
+        },
+        "A10": {
+            "name": "Dips",
+            "bays": {
+                "B1": [
+                    "prod-037"
+                ],
+                "B2": [
+                    "prod-038"
+                ],
+                "B3": [
+                    "prod-039"
+                ]
+            }
+        },
+        "A11": {
+            "name": "Grains",
+            "bays": {
+                "B1": [
+                    "prod-042"
+                ],
+                "B2": [
+                    "prod-043"
+                ],
+                "B3": [
+                    "prod-044"
+                ]
+            }
+        },
+        "A12": {
+            "name": "Canned Goods",
+            "bays": {
+                "B1": [
+                    "prod-045"
+                ],
+                "B2": [
+                    "prod-046"
+                ],
+                "B3": [
+                    "prod-047"
+                ],
+                "B4": [
+                    "prod-048"
+                ]
+            }
+        },
+        "A13": {
+            "name": "Oils",
+            "bays": {
+                "B1": [
+                    "prod-049"
+                ],
+                "B2": [
+                    "prod-050"
+                ]
+            }
+        },
+        "A14": {
+            "name": "Sweeteners",
+            "bays": {
+                "B1": [
+                    "prod-051"
+                ],
+                "B2": [
+                    "prod-052"
+                ]
+            }
+        },
+        "A15": {
+            "name": "Breakfast",
+            "bays": {
+                "B1": [
+                    "prod-053"
+                ],
+                "B2": [
+                    "prod-054"
+                ],
+                "B3": [
+                    "prod-055"
+                ]
+            }
+        },
+        "A16": {
+            "name": "Candy",
+            "bays": {
+                "B1": [
+                    "prod-060"
+                ],
+                "B2": [
+                    "prod-061"
+                ],
+                "B3": [
+                    "prod-062"
+                ],
+                "B4": [
+                    "prod-063"
+                ]
+            }
+        }
+    }
+}

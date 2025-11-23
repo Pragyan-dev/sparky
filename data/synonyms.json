@@ -1,0 +1,142 @@
+{
+    "allergens": {
+        "milk": [
+            "milk",
+            "dairy",
+            "casein",
+            "whey",
+            "lactose",
+            "butter",
+            "cream",
+            "cheese",
+            "yogurt",
+            "ghee",
+            "curds"
+        ],
+        "gluten": [
+            "wheat",
+            "barley",
+            "rye",
+            "malt",
+            "spelt",
+            "kamut",
+            "triticale",
+            "farro",
+            "semolina",
+            "durum"
+        ],
+        "peanut": [
+            "peanut",
+            "peanuts",
+            "groundnut",
+            "groundnuts",
+            "arachis"
+        ],
+        "treenut": [
+            "almond",
+            "cashew",
+            "walnut",
+            "pecan",
+            "pistachio",
+            "hazelnut",
+            "macadamia",
+            "brazil nut",
+            "pine nut",
+            "chestnut"
+        ],
+        "egg": [
+            "egg",
+            "eggs",
+            "albumin",
+            "mayonnaise",
+            "meringue",
+            "lysozyme"
+        ],
+        "soy": [
+            "soy",
+            "soya",
+            "soybean",
+            "tofu",
+            "tempeh",
+            "edamame",
+            "miso",
+            "tamari",
+            "lecithin"
+        ],
+        "fish": [
+            "fish",
+            "salmon",
+            "tuna",
+            "cod",
+            "halibut",
+            "anchovy",
+            "sardine",
+            "bass",
+            "trout"
+        ],
+        "shellfish": [
+            "shrimp",
+            "crab",
+            "lobster",
+            "clam",
+            "oyster",
+            "mussel",
+            "scallop",
+            "prawn",
+            "crayfish"
+        ],
+        "sesame": [
+            "sesame",
+            "tahini",
+            "sesamol",
+            "sesamum"
+        ]
+    },
+    "diets": {
+        "vegan": {
+            "exclude": [
+                "milk",
+                "dairy",
+                "egg",
+                "honey",
+                "gelatin",
+                "meat",
+                "chicken",
+                "beef",
+                "pork",
+                "fish",
+                "shellfish"
+            ]
+        },
+        "vegetarian": {
+            "exclude": [
+                "meat",
+                "chicken",
+                "beef",
+                "pork",
+                "lamb",
+                "fish",
+                "shellfish",
+                "gelatin"
+            ]
+        },
+        "halal": {
+            "exclude": [
+                "pork",
+                "bacon",
+                "ham",
+                "lard",
+                "alcohol",
+                "wine",
+                "beer"
+            ]
+        },
+        "kosher": {
+            "exclude": [
+                "pork",
+                "shellfish",
+                "mixing meat and dairy"
+            ]
+        }
+    }
+}

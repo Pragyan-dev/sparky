@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // User preferences - users can only read/write their own
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Products - read-only for all authenticated users
+    match /products/{productId} {
+      allow read: if request.auth != null;
+      allow write: if false; // TODO: Add admin role check
+    }
+    
+    // Recipes - read-only for all authenticated users
+    match /recipes/{recipeId} {
+      allow read: if request.auth != null;
+      allow write: if false; // TODO: Add admin role check
+    }
+    
+    // Planogram - read-only for all authenticated users
+    match /planogram/{id} {
+      allow read: if request.auth != null;
+      allow write: if false; // TODO: Add admin role check
+    }
+    
+    // Synonyms - read-only for all authenticated users
+    match /synonyms/{id} {
+      allow read: if request.auth != null;
+      allow write: if false; // TODO: Add admin role check
+    }
+    
+    // Store graph - read-only for all authenticated users
+    match /store/{id} {
+      allow read: if request.auth != null;
+      allow write: if false; // TODO: Add admin role check
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,1028 @@
+{
+    "products": [
+        {
+            "id": "prod-001",
+            "name": "Organic Whole Milk",
+            "brand": "Horizon Organic",
+            "category": "Dairy",
+            "price": 4.99,
+            "image": "https://images.openfoodfacts.org/images/products/074/236/526/4450/front_en.42.400.jpg",
+            "rawIngredients": "Organic Milk, Vitamin D3",
+            "tokens": [
+                "milk",
+                "dairy"
+            ],
+            "aisle": "A1",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-002",
+            "name": "Almond Milk Unsweetened",
+            "brand": "Almond Breeze",
+            "category": "Dairy Alternatives",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/004/157/008/0146/front_en.57.400.jpg",
+            "rawIngredients": "Filtered Water, Almonds, Sea Salt, Sunflower Lecithin, Gellan Gum",
+            "tokens": [
+                "almond",
+                "treenut"
+            ],
+            "aisle": "A1",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-003",
+            "name": "Free Range Eggs Large",
+            "brand": "Vital Farms",
+            "category": "Eggs",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/861/745/000/010/front_en.400.jpg",
+            "rawIngredients": "Eggs",
+            "tokens": [
+                "egg"
+            ],
+            "aisle": "A1",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-004",
+            "name": "Whole Wheat Bread",
+            "brand": "Nature's Own",
+            "category": "Bakery",
+            "price": 3.49,
+            "image": "https://images.openfoodfacts.org/images/products/007/225/003/7129/front_en.124.400.jpg",
+            "rawIngredients": "Whole Wheat Flour, Water, Yeast, Salt, Sugar, Wheat Gluten",
+            "tokens": [
+                "wheat",
+                "gluten"
+            ],
+            "aisle": "A2",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-005",
+            "name": "Gluten-Free Bread",
+            "brand": "Canyon Bakehouse",
+            "category": "Bakery",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/007/225/091/6547/front_en.3.400.jpg",
+            "rawIngredients": "Rice Flour, Tapioca Starch, Water, Eggs, Olive Oil, Yeast, Salt",
+            "tokens": [
+                "egg"
+            ],
+            "aisle": "A2",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-006",
+            "name": "Peanut Butter Creamy",
+            "brand": "Jif",
+            "category": "Spreads",
+            "price": 4.29,
+            "image": "https://images.openfoodfacts.org/images/products/005/150/025/5162/front_en.140.400.jpg",
+            "rawIngredients": "Roasted Peanuts, Salt",
+            "tokens": [
+                "peanut"
+            ],
+            "aisle": "A3",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-007",
+            "name": "Almond Butter",
+            "brand": "Barney Butter",
+            "category": "Spreads",
+            "price": 6.99,
+            "image": "https://images.openfoodfacts.org/images/products/009/492/235/1258/front_en.28.400.jpg",
+            "rawIngredients": "Roasted Almonds, Sea Salt",
+            "tokens": [
+                "almond",
+                "treenut"
+            ],
+            "aisle": "A3",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-008",
+            "name": "Spaghetti Pasta",
+            "brand": "Barilla",
+            "category": "Pasta",
+            "price": 2.49,
+            "image": "https://images.openfoodfacts.org/images/products/807/680/019/5057/front_en.3428.400.jpg",
+            "rawIngredients": "Durum Wheat Semolina",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "durum",
+                "semolina"
+            ],
+            "aisle": "A4",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-009",
+            "name": "Brown Rice Pasta",
+            "brand": "Jovial",
+            "category": "Pasta",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/081/542/101/1203/front_en.27.400.jpg",
+            "rawIngredients": "Brown Rice Flour, Water",
+            "tokens": [],
+            "aisle": "A4",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-010",
+            "name": "Cheddar Cheese Block",
+            "brand": "Tillamook",
+            "category": "Cheese",
+            "price": 6.49,
+            "image": "https://images.openfoodfacts.org/images/products/072/830/005/517/front_en.400.jpg",
+            "rawIngredients": "Pasteurized Milk, Cheese Cultures, Salt, Enzymes",
+            "tokens": [
+                "milk",
+                "dairy",
+                "cheese"
+            ],
+            "aisle": "A1",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-011",
+            "name": "Vegan Cheese Slices",
+            "brand": "Violife",
+            "category": "Cheese Alternatives",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/520/239/001/5878/front_en.25.400.jpg",
+            "rawIngredients": "Water, Coconut Oil, Modified Starch, Sea Salt, Natural Flavors",
+            "tokens": [],
+            "aisle": "A1",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-012",
+            "name": "Greek Yogurt Plain",
+            "brand": "Chobani",
+            "category": "Yogurt",
+            "price": 4.99,
+            "image": "https://images.openfoodfacts.org/images/products/089/470/001/0137/front_en.367.400.jpg",
+            "rawIngredients": "Cultured Pasteurized Milk, Live Active Cultures",
+            "tokens": [
+                "milk",
+                "dairy",
+                "yogurt"
+            ],
+            "aisle": "A1",
+            "bay": "B6"
+        },
+        {
+            "id": "prod-013",
+            "name": "Coconut Yogurt",
+            "brand": "So Delicious",
+            "category": "Yogurt Alternatives",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/074/447/300/0333/front_en.30.400.jpg",
+            "rawIngredients": "Coconut Milk, Tapioca Starch, Live Cultures, Pectin",
+            "tokens": [],
+            "aisle": "A1",
+            "bay": "B7"
+        },
+        {
+            "id": "prod-014",
+            "name": "Salmon Fillet Fresh",
+            "brand": "Honey Smoked Fish Co",
+            "category": "Seafood",
+            "price": 12.99,
+            "image": "https://images.openfoodfacts.org/images/products/006/606/460/0029/front_en.400.jpg",
+            "rawIngredients": "Atlantic Salmon",
+            "tokens": [
+                "fish",
+                "salmon"
+            ],
+            "aisle": "A5",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-015",
+            "name": "Shrimp Peeled Deveined",
+            "brand": "SeaPak",
+            "category": "Seafood",
+            "price": 10.99,
+            "image": "https://images.openfoodfacts.org/images/products/041/322/108/555/front_en.400.jpg",
+            "rawIngredients": "Shrimp, Salt",
+            "tokens": [
+                "shrimp",
+                "shellfish"
+            ],
+            "aisle": "A5",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-016",
+            "name": "Chicken Breast Boneless",
+            "brand": "Tyson",
+            "category": "Poultry",
+            "price": 8.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/370/016/2205/front_en.4.400.jpg",
+            "rawIngredients": "Chicken Breast",
+            "tokens": [
+                "chicken",
+                "meat"
+            ],
+            "aisle": "A6",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-017",
+            "name": "Ground Beef 85/15",
+            "brand": "Thomas Farms",
+            "category": "Meat",
+            "price": 7.99,
+            "image": "https://images.openfoodfacts.org/images/products/064/708/600/1783/front_en.400.jpg",
+            "rawIngredients": "Ground Beef",
+            "tokens": [
+                "beef",
+                "meat"
+            ],
+            "aisle": "A6",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-veg-001",
+            "name": "Plant-Based Chicken Strips",
+            "brand": "Beyond Meat",
+            "category": "Plant-Based Alternatives",
+            "price": 6.99,
+            "image": "https://images.openfoodfacts.org/images/products/810/057/290/299/front_en.400.jpg",
+            "rawIngredients": "Water, Pea Protein, Canola Oil, Refined Coconut Oil, Rice Protein, Natural Flavors, Cocoa Butter, Mung Bean Protein",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "chicken-alternative"
+            ],
+            "aisle": "E1",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-veg-002",
+            "name": "Vegan Ground Beef",
+            "brand": "Impossible Foods",
+            "category": "Plant-Based Alternatives",
+            "price": 8.49,
+            "image": "https://images.openfoodfacts.org/images/products/816/697/021/019/front_en.400.jpg",
+            "rawIngredients": "Water, Soy Protein Concentrate, Coconut Oil, Sunflower Oil, Natural Flavors, Potato Protein, Methylcellulose, Yeast Extract, Cultured Dextrose, Food Starch Modified, Soy Leghemoglobin, Salt, Soy Protein Isolate",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "beef-alternative",
+                "soy"
+            ],
+            "aisle": "E1",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-veg-003",
+            "name": "Plant-Based Fish Fillets",
+            "brand": "Good Catch",
+            "category": "Plant-Based Alternatives",
+            "price": 7.99,
+            "image": "https://images.openfoodfacts.org/images/products/085/954/300/7287/front_en.3.400.jpg",
+            "rawIngredients": "Water, Pea Protein Isolate, Chickpea Flour, Algae Oil, Faba Protein, Potato Starch, Pea Fiber, Tomato Powder, Natural Flavors, Sea Salt, Lemon Concentrate, Onion Powder, Garlic Powder",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "fish-alternative"
+            ],
+            "aisle": "E1",
+            "bay": "B6"
+        },
+        {
+            "id": "prod-veg-004",
+            "name": "Veggie Burger Patties",
+            "brand": "MorningStar Farms",
+            "category": "Plant-Based Alternatives",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/898/910/0689/front_en.38.400.jpg",
+            "rawIngredients": "Water, Soy Protein Concentrate, Vegetable Oil, Wheat Gluten, Contains 2% or less of: Cornstarch, Salt, Natural Flavors, Methylcellulose, Yeast Extract, Spices, Onion Powder, Garlic Powder",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "burger-alternative",
+                "soy",
+                "wheat",
+                "gluten"
+            ],
+            "aisle": "E1",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-veg-005",
+            "name": "Vegan Chicken Nuggets",
+            "brand": "Gardein",
+            "category": "Plant-Based Alternatives",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/008/422/340/0052/front_en.400.jpg",
+            "rawIngredients": "Water, Soy Protein Isolate, Wheat Gluten, Vegetable Oil, Pea Protein, Natural Flavors, Yeast Extract, Organic Cane Sugar, Sea Salt, Organic Ancient Grain Flour",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "chicken-alternative",
+                "soy",
+                "wheat",
+                "gluten"
+            ],
+            "aisle": "E1",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-veg-006",
+            "name": "Plant-Based Sausage Links",
+            "brand": "Field Roast",
+            "category": "Plant-Based Alternatives",
+            "price": 6.49,
+            "image": "https://images.openfoodfacts.org/images/products/063/803/161/2178/front_en.400.jpg",
+            "rawIngredients": "Filtered Water, Vital Wheat Gluten, Expeller Pressed Safflower Oil, Organic Expeller Pressed Palm Fruit Oil, Barley Malt Extract, Naturally Flavored Yeast Extract, Tomato Paste, Apple Cider Vinegar, Paprika, Sea Salt, Onions, Spices, Whole Wheat Flour, Garlic, Natural Liquid Smoke",
+            "tokens": [
+                "vegetarian",
+                "plant-based",
+                "sausage-alternative",
+                "wheat",
+                "gluten"
+            ],
+            "aisle": "E1",
+            "bay": "B6"
+        },
+        {
+            "id": "prod-018",
+            "name": "Tofu Extra Firm",
+            "brand": "Nasoya",
+            "category": "Protein Alternatives",
+            "price": 3.49,
+            "image": "https://images.openfoodfacts.org/images/products/002/548/400/7710/front_en.3.400.jpg",
+            "rawIngredients": "Soybeans, Water, Calcium Sulfate",
+            "tokens": [
+                "soy",
+                "soybean"
+            ],
+            "aisle": "A7",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-019",
+            "name": "Tempeh Original",
+            "brand": "Lightlife",
+            "category": "Protein Alternatives",
+            "price": 4.29,
+            "image": "https://images.openfoodfacts.org/images/products/004/345/403/0506/front_en.66.400.jpg",
+            "rawIngredients": "Organic Soybeans, Water, Culture",
+            "tokens": [
+                "soy",
+                "soybean"
+            ],
+            "aisle": "A7",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-020",
+            "name": "Soy Sauce",
+            "brand": "Kikkoman",
+            "category": "Condiments",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/871/503/511/0106/front_en.247.400.jpg",
+            "rawIngredients": "Water, Soybeans, Wheat, Salt",
+            "tokens": [
+                "soy",
+                "wheat",
+                "gluten"
+            ],
+            "aisle": "A8",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-021",
+            "name": "Tamari Gluten-Free",
+            "brand": "San-J",
+            "category": "Condiments",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/075/810/021/255/front_en.400.jpg",
+            "rawIngredients": "Water, Soybeans, Salt, Alcohol",
+            "tokens": [
+                "soy"
+            ],
+            "aisle": "A8",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-022",
+            "name": "Mayonnaise",
+            "brand": "Hellmann's",
+            "category": "Condiments",
+            "price": 4.49,
+            "image": "https://images.openfoodfacts.org/images/products/872/270/047/9475/front_en.80.400.jpg",
+            "rawIngredients": "Soybean Oil, Eggs, Vinegar, Water, Salt",
+            "tokens": [
+                "soy",
+                "egg"
+            ],
+            "aisle": "A8",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-023",
+            "name": "Vegan Mayo",
+            "brand": "Follow Your Heart",
+            "category": "Condiments",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/049/568/010/168/front_en.400.jpg",
+            "rawIngredients": "Canola Oil, Water, White Vinegar, Salt, Pea Protein",
+            "tokens": [],
+            "aisle": "A8",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-024",
+            "name": "Butter Salted",
+            "brand": "Kerrygold",
+            "category": "Dairy",
+            "price": 4.99,
+            "image": "https://images.openfoodfacts.org/images/products/076/770/700/1067/front_en.65.400.jpg",
+            "rawIngredients": "Cream, Salt",
+            "tokens": [
+                "milk",
+                "dairy",
+                "butter",
+                "cream"
+            ],
+            "aisle": "A1",
+            "bay": "B8"
+        },
+        {
+            "id": "prod-025",
+            "name": "Plant-Based Butter",
+            "brand": "Miyoko's Creamery",
+            "category": "Dairy Alternatives",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/085/755/400/5773/front_en.30.400.jpg",
+            "rawIngredients": "Coconut Oil, Sunflower Oil, Water, Salt, Natural Flavors",
+            "tokens": [],
+            "aisle": "A1",
+            "bay": "B9"
+        },
+        {
+            "id": "prod-026",
+            "name": "Chocolate Chip Cookies",
+            "brand": "Chips Ahoy",
+            "category": "Snacks",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/841/000/080/2771/front_en.55.400.jpg",
+            "rawIngredients": "Wheat Flour, Sugar, Chocolate Chips (Sugar, Cocoa, Milk), Butter, Eggs",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "milk",
+                "dairy",
+                "egg"
+            ],
+            "aisle": "A9",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-027",
+            "name": "Gluten-Free Cookies",
+            "brand": "Tate's Bake Shop",
+            "category": "Snacks",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/810/291/001/088/front_en.400.jpg",
+            "rawIngredients": "Rice Flour, Sugar, Dairy-Free Chocolate Chips, Coconut Oil",
+            "tokens": [],
+            "aisle": "A9",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-028",
+            "name": "Potato Chips Original",
+            "brand": "Lay's",
+            "category": "Snacks",
+            "price": 2.99,
+            "image": "https://images.openfoodfacts.org/images/products/871/039/816/0829/front_en.60.400.jpg",
+            "rawIngredients": "Potatoes, Vegetable Oil, Salt",
+            "tokens": [],
+            "aisle": "A9",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-029",
+            "name": "Mixed Nuts",
+            "brand": "Planters",
+            "category": "Snacks",
+            "price": 7.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/900/001/6651/front_en.33.400.jpg",
+            "rawIngredients": "Almonds, Cashews, Walnuts, Pecans, Sea Salt",
+            "tokens": [
+                "almond",
+                "cashew",
+                "walnut",
+                "pecan",
+                "treenut"
+            ],
+            "aisle": "A9",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-030",
+            "name": "Sesame Crackers",
+            "brand": "Wasa",
+            "category": "Snacks",
+            "price": 3.49,
+            "image": "https://images.openfoodfacts.org/images/products/730/040/012/6205/front_de.96.400.jpg",
+            "rawIngredients": "Wheat Flour, Sesame Seeds, Vegetable Oil, Salt",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "sesame"
+            ],
+            "aisle": "A9",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-031",
+            "name": "Oat Milk",
+            "brand": "Oatly",
+            "category": "Dairy Alternatives",
+            "price": 4.49,
+            "image": "https://images.openfoodfacts.org/images/products/739/437/661/6228/front_en.182.400.jpg",
+            "rawIngredients": "Water, Oats, Sunflower Oil, Sea Salt",
+            "tokens": [],
+            "aisle": "A1",
+            "bay": "B10"
+        },
+        {
+            "id": "prod-032",
+            "name": "Parmesan Cheese Grated",
+            "brand": "Kraft",
+            "category": "Cheese",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/100/061/5315/front_en.55.400.jpg",
+            "rawIngredients": "Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzymes",
+            "tokens": [
+                "milk",
+                "dairy",
+                "cheese"
+            ],
+            "aisle": "A1",
+            "bay": "B11"
+        },
+        {
+            "id": "prod-033",
+            "name": "Mozzarella Cheese",
+            "brand": "Galbani",
+            "category": "Cheese",
+            "price": 4.99,
+            "image": "https://images.openfoodfacts.org/images/products/800/043/013/3035/front_en.235.400.jpg",
+            "rawIngredients": "Pasteurized Milk, Cheese Cultures, Salt, Enzymes",
+            "tokens": [
+                "milk",
+                "dairy",
+                "cheese"
+            ],
+            "aisle": "A1",
+            "bay": "B12"
+        },
+        {
+            "id": "prod-034",
+            "name": "Feta Cheese",
+            "brand": "Athenos",
+            "category": "Cheese",
+            "price": 6.49,
+            "image": "https://images.openfoodfacts.org/images/products/007/027/700/0065/front_en.15.400.jpg",
+            "rawIngredients": "Pasteurized Milk, Salt, Cheese Cultures, Enzymes",
+            "tokens": [
+                "milk",
+                "dairy",
+                "cheese"
+            ],
+            "aisle": "A1",
+            "bay": "B13"
+        },
+        {
+            "id": "prod-035",
+            "name": "Bacon Strips",
+            "brand": "Oscar Mayer",
+            "category": "Meat",
+            "price": 7.49,
+            "image": "https://images.openfoodfacts.org/images/products/044/700/022/689/front_en.400.jpg",
+            "rawIngredients": "Pork, Water, Salt, Sugar, Sodium Nitrite",
+            "tokens": [
+                "pork",
+                "meat"
+            ],
+            "aisle": "A6",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-036",
+            "name": "Turkey Bacon",
+            "brand": "Butterball",
+            "category": "Poultry",
+            "price": 6.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/265/530/3015/front_en.59.400.jpg",
+            "rawIngredients": "Turkey, Water, Salt, Sugar",
+            "tokens": [
+                "turkey",
+                "meat"
+            ],
+            "aisle": "A6",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-037",
+            "name": "Hummus Classic",
+            "brand": "Sabra",
+            "category": "Dips",
+            "price": 4.49,
+            "image": "https://images.openfoodfacts.org/images/products/729/000/656/7673/front_en.16.400.jpg",
+            "rawIngredients": "Chickpeas, Tahini, Lemon Juice, Garlic, Olive Oil, Salt",
+            "tokens": [
+                "sesame"
+            ],
+            "aisle": "A10",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-038",
+            "name": "Guacamole",
+            "brand": "Wholly Guacamole",
+            "category": "Dips",
+            "price": 5.49,
+            "image": "https://images.openfoodfacts.org/images/products/061/611/206/1435/front_en.11.400.jpg",
+            "rawIngredients": "Avocado, Tomato, Onion, Lime Juice, Cilantro, Salt",
+            "tokens": [],
+            "aisle": "A10",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-039",
+            "name": "Salsa Medium",
+            "brand": "Tostitos",
+            "category": "Dips",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/002/840/007/0980/front_en.56.400.jpg",
+            "rawIngredients": "Tomatoes, Onions, Jalapeños, Cilantro, Lime Juice, Salt",
+            "tokens": [],
+            "aisle": "A10",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-040",
+            "name": "Rice Noodles",
+            "brand": "Thai Kitchen",
+            "category": "Pasta",
+            "price": 3.49,
+            "image": "https://images.openfoodfacts.org/images/products/073/762/802/5251/front_en.40.400.jpg",
+            "rawIngredients": "Rice Flour, Water",
+            "tokens": [],
+            "aisle": "A4",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-041",
+            "name": "Egg Noodles",
+            "brand": "No Yolks",
+            "category": "Pasta",
+            "price": 2.99,
+            "image": "https://images.openfoodfacts.org/images/products/006/420/013/0448/front_en.7.400.jpg",
+            "rawIngredients": "Wheat Flour, Eggs, Water",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "egg"
+            ],
+            "aisle": "A4",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-042",
+            "name": "Quinoa",
+            "brand": "Ancient Harvest",
+            "category": "Grains",
+            "price": 5.99,
+            "image": "https://images.openfoodfacts.org/images/products/008/912/518/0002/front_en.14.400.jpg",
+            "rawIngredients": "Organic Quinoa",
+            "tokens": [],
+            "aisle": "A11",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-043",
+            "name": "Brown Rice",
+            "brand": "Lundberg",
+            "category": "Grains",
+            "price": 4.49,
+            "image": "https://images.openfoodfacts.org/images/products/007/341/600/0148/front_en.53.400.jpg",
+            "rawIngredients": "Whole Grain Brown Rice",
+            "tokens": [],
+            "aisle": "A11",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-044",
+            "name": "White Rice",
+            "brand": "Mahatma",
+            "category": "Grains",
+            "price": 3.99,
+            "image": "https://images.openfoodfacts.org/images/products/001/740/010/8007/front_en.11.400.jpg",
+            "rawIngredients": "Enriched White Rice",
+            "tokens": [],
+            "aisle": "A11",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-045",
+            "name": "Chickpeas Canned",
+            "brand": "Goya",
+            "category": "Canned Goods",
+            "price": 1.99,
+            "image": "https://images.openfoodfacts.org/images/products/004/133/112/4225/front_en.49.400.jpg",
+            "rawIngredients": "Chickpeas, Water, Salt",
+            "tokens": [],
+            "aisle": "A12",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-046",
+            "name": "Black Beans Canned",
+            "brand": "Goya",
+            "category": "Canned Goods",
+            "price": 1.79,
+            "image": "https://images.openfoodfacts.org/images/products/004/133/102/4693/front_en.8.400.jpg",
+            "rawIngredients": "Black Beans, Water, Salt",
+            "tokens": [],
+            "aisle": "A12",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-047",
+            "name": "Tomato Sauce",
+            "brand": "Hunt's",
+            "category": "Canned Goods",
+            "price": 2.49,
+            "image": "https://images.openfoodfacts.org/images/products/002/700/000/2643/front_en.14.400.jpg",
+            "rawIngredients": "Tomatoes, Onions, Garlic, Olive Oil, Basil, Salt",
+            "tokens": [],
+            "aisle": "A12",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-048",
+            "name": "Coconut Milk",
+            "brand": "Thai Kitchen",
+            "category": "Canned Goods",
+            "price": 2.99,
+            "image": "https://images.openfoodfacts.org/images/products/073/762/807/9506/front_en.46.400.jpg",
+            "rawIngredients": "Coconut Extract, Water",
+            "tokens": [],
+            "aisle": "A12",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-049",
+            "name": "Olive Oil Extra Virgin",
+            "brand": "California Olive Ranch",
+            "category": "Oils",
+            "price": 9.99,
+            "image": "https://images.openfoodfacts.org/images/products/085/068/710/4009/front_en.19.400.jpg",
+            "rawIngredients": "Extra Virgin Olive Oil",
+            "tokens": [],
+            "aisle": "A13",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-050",
+            "name": "Coconut Oil",
+            "brand": "Tropical Treats",
+            "category": "Oils",
+            "price": 7.99,
+            "image": "https://loremflickr.com/400/400/coconut,oil,jar/all",
+            "rawIngredients": "Organic Coconut Oil",
+            "tokens": [],
+            "aisle": "A13",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-051",
+            "name": "Honey",
+            "brand": "Bee Happy",
+            "category": "Sweeteners",
+            "price": 6.99,
+            "image": "https://images.openfoodfacts.org/images/products/940/055/400/1477/front_en.9.400.jpg",
+            "rawIngredients": "Pure Honey",
+            "tokens": [
+                "honey"
+            ],
+            "aisle": "A14",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-052",
+            "name": "Maple Syrup",
+            "brand": "Canadian Pure",
+            "category": "Sweeteners",
+            "price": 8.99,
+            "image": "https://images.openfoodfacts.org/images/products/000/000/184/9738/front_en.19.400.jpg",
+            "rawIngredients": "Pure Maple Syrup",
+            "tokens": [],
+            "aisle": "A14",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-053",
+            "name": "Granola Original",
+            "brand": "Morning Crunch",
+            "category": "Breakfast",
+            "price": 5.49,
+            "image": "https://loremflickr.com/400/400/granola,bowl/all",
+            "rawIngredients": "Oats, Honey, Almonds, Coconut Oil, Cinnamon",
+            "tokens": [
+                "honey",
+                "almond",
+                "treenut"
+            ],
+            "aisle": "A15",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-054",
+            "name": "Corn Flakes",
+            "brand": "Morning Crunch",
+            "category": "Breakfast",
+            "price": 3.99,
+            "image": "https://loremflickr.com/400/400/corn,flakes,bowl/all",
+            "rawIngredients": "Corn, Sugar, Salt, Malt Extract",
+            "tokens": [
+                "malt",
+                "gluten"
+            ],
+            "aisle": "A15",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-055",
+            "name": "Oatmeal Instant",
+            "brand": "Grain Goodness",
+            "category": "Breakfast",
+            "price": 4.49,
+            "image": "https://loremflickr.com/400/400/oatmeal,porridge/all",
+            "rawIngredients": "Whole Grain Oats",
+            "tokens": [],
+            "aisle": "A15",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-056",
+            "name": "Penne Pasta",
+            "brand": "Pasta Perfect",
+            "category": "Pasta",
+            "price": 2.49,
+            "image": "https://loremflickr.com/400/400/penne,pasta/all",
+            "rawIngredients": "Durum Wheat Semolina",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "durum",
+                "semolina"
+            ],
+            "aisle": "A4",
+            "bay": "B5"
+        },
+        {
+            "id": "prod-057",
+            "name": "Lasagna Sheets",
+            "brand": "Italian Classics",
+            "category": "Pasta",
+            "price": 3.49,
+            "image": "https://loremflickr.com/400/400/lasagna,sheets/all",
+            "rawIngredients": "Durum Wheat Semolina, Eggs",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "durum",
+                "semolina",
+                "egg"
+            ],
+            "aisle": "A4",
+            "bay": "B6"
+        },
+        {
+            "id": "prod-058",
+            "name": "Tortilla Chips",
+            "brand": "Crispy Crunch",
+            "category": "Snacks",
+            "price": 3.49,
+            "image": "https://loremflickr.com/400/400/tortilla,chips/all",
+            "rawIngredients": "Corn, Vegetable Oil, Salt",
+            "tokens": [],
+            "aisle": "A9",
+            "bay": "B6"
+        },
+        {
+            "id": "prod-059",
+            "name": "Pretzels",
+            "brand": "Salty Snacks",
+            "category": "Snacks",
+            "price": 2.99,
+            "image": "https://images.openfoodfacts.org/images/products/594/949/904/2069/front_en.49.400.jpg",
+            "rawIngredients": "Wheat Flour, Water, Salt, Yeast, Malt",
+            "tokens": [
+                "wheat",
+                "gluten",
+                "malt"
+            ],
+            "aisle": "A9",
+            "bay": "B7"
+        },
+        {
+            "id": "prod-060",
+            "name": "Dark Chocolate Bar",
+            "brand": "Sweet Treats",
+            "category": "Candy",
+            "price": 3.99,
+            "image": "https://loremflickr.com/400/400/dark,chocolate/all",
+            "rawIngredients": "Cocoa Mass, Sugar, Cocoa Butter, Vanilla",
+            "tokens": [],
+            "aisle": "A16",
+            "bay": "B1"
+        },
+        {
+            "id": "prod-061",
+            "name": "Milk Chocolate Bar",
+            "brand": "Sweet Treats",
+            "category": "Candy",
+            "price": 3.49,
+            "image": "https://loremflickr.com/400/400/milk,chocolate/all",
+            "rawIngredients": "Sugar, Cocoa Butter, Milk Powder, Cocoa Mass, Vanilla",
+            "tokens": [
+                "milk",
+                "dairy"
+            ],
+            "aisle": "A16",
+            "bay": "B2"
+        },
+        {
+            "id": "prod-062",
+            "name": "Gummy Bears",
+            "brand": "Chewy Delights",
+            "category": "Candy",
+            "price": 2.99,
+            "image": "https://loremflickr.com/400/400/gummy,bears/all",
+            "rawIngredients": "Corn Syrup, Sugar, Gelatin, Citric Acid, Natural Flavors, Colors",
+            "tokens": [
+                "gelatin"
+            ],
+            "aisle": "A16",
+            "bay": "B3"
+        },
+        {
+            "id": "prod-063",
+            "name": "Vegan Gummy Bears",
+            "brand": "Plant Power",
+            "category": "Candy",
+            "price": 3.99,
+            "image": "https://loremflickr.com/400/400/vegan,candy/all",
+            "rawIngredients": "Corn Syrup, Sugar, Pectin, Citric Acid, Natural Flavors, Colors",
+            "tokens": [],
+            "aisle": "A16",
+            "bay": "B4"
+        },
+        {
+            "id": "prod-064",
+            "name": "Sour Cream",
+            "brand": "Dairy Delight",
+            "category": "Dairy",
+            "price": 3.99,
+            "image": "https://loremflickr.com/400/400/sour,cream/all",
+            "rawIngredients": "Cultured Cream, Enzymes",
+            "tokens": [
+                "milk",
+                "dairy",
+                "cream"
+            ],
+            "aisle": "A1",
+            "bay": "B14"
+        },
+        {
+            "id": "prod-065",
+            "name": "Cashew Cream",
+            "brand": "Nutty Delights",
+            "category": "Dairy Alternatives",
+            "price": 5.99,
+            "image": "https://loremflickr.com/400/400/cashew,sauce/all",
+            "rawIngredients": "Cashews, Water, Sea Salt, Cultures",
+            "tokens": [
+                "cashew",
+                "treenut"
+            ],
+            "aisle": "A1",
+            "bay": "B15"
+        }
+    ]
+}
